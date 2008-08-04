@@ -1,0 +1,16 @@
+Changes
+lib/Spread/Client.pm
+lib/Spread/Client/Connection.pm
+lib/Spread/Client/Connection/Async.pm
+lib/Spread/Client/Connection/Async/AnyEvent.pm
+lib/Spread/Client/Connection/Async/Danga.pm
+lib/Spread/Client/Connection/Sync.pm
+lib/Spread/Client/Frame.pm
+Makefile.PL
+MANIFEST			This list of files
+MANIFEST.SKIP
+README
+t/01sync.t
+t/02async_danga.t
+t/03async_anyevent_poe.t
+META.yml                                 Module meta-data (added by MakeMaker)

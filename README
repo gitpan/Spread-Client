@@ -1,0 +1,28 @@
+Spread-Client
+==========================
+
+Perl implementation of a Spread Toolkit client.  It allows asynchronous
+operations for everything EXCEPT connects.
+
+To install this module type the following:
+
+   perl Makefile.PL
+   make
+   make test
+   make install
+
+DEPENDENCIES
+
+See Makefile.PL
+
+COPYRIGHT AND LICENCE
+
+Put the correct copyright and licence information here.
+
+Copyright (C) 2008 by Marlon Bailey
+
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself, either Perl version 5.8.8 or,
+at your option, any later version of Perl 5 you may have available.
+
+

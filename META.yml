@@ -1,0 +1,17 @@
+--- #YAML:1.0
+name:                Spread-Client
+version:             0.03_01
+abstract:            Spread client that allows synchronous OR asynchronous multicast/receive/join/leave/disconnect to spread daemons
+license:             ~
+author:              
+    - Marlon Bailey <mbailey@cpan.org>
+generated_by:        ExtUtils::MakeMaker version 6.44
+distribution_type:   module
+requires:     
+    IO::Socket::INET:              0
+    IO::Socket::UNIX:              0
+    Socket:                        0
+    Spread::Client::Constant:      0.02
+meta-spec:
+    url:     http://module-build.sourceforge.net/META-spec-v1.3.html
+    version: 1.3
