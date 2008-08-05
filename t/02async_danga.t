@@ -2,7 +2,6 @@ use strict;
 use warnings;
 
 use Test::More tests => 8;
-use Danga::Socket;
 BEGIN { use_ok('Spread::Client') }
 use Spread::Client::Constant ':all';
 

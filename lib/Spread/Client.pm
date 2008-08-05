@@ -10,7 +10,7 @@ use Spread::Client::Frame;
 use List::Util qw(reduce);
 use Socket;
 
-our $VERSION = '0.03_01';
+our $VERSION = '0.03_02';
 
 sub connect {
     my %args = @_;

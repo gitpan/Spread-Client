@@ -2,14 +2,12 @@ use strict;
 use warnings;
 
 use Test::More tests => 8;
-use POE;
-use AnyEvent;
 
 BEGIN { use_ok('Spread::Client') }
 use Spread::Client::Constant ':all';
 
 SKIP: {
-    my $have_poe = eval { require POE; require AnyEvent; 1; };
+    my $have_poe = eval { require POE; require POE::Kernel; require AnyEvent; 1; };
 
     skip 'SPREAD_NAME environment variable not defined or we are missing AnyEvent/POE', 7
         unless $ENV{SPREAD_NAME} and $have_poe;
